@@ -1,0 +1,6 @@
+[submodule "aenea-grammars"]
+	path = aenea-grammars
+	url = https://github.com/dictation-toolbox/aenea-grammars
+[submodule "aenea"]
+	path = aenea
+	url = https://github.com/dictation-toolbox/aenea
