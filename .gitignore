@@ -1,1 +1,4 @@
 *.pyc
+
+# Scripts
+MacroSystem/_vim.py
