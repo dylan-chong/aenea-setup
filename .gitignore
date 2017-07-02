@@ -1,4 +1,9 @@
 *.pyc
 
-# Scripts
+# Copied scripts
 MacroSystem/_vim.py
+MacroSystem/aenea/
+
+# IDE
+.idea/
+*.iml
