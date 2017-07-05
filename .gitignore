@@ -1,7 +1,7 @@
 *.pyc
 
 # Copied scripts
-MacroSystem/_vim.py
+MacroSystem/_*vim*.py
 MacroSystem/aenea/
 
 # Aenea State
