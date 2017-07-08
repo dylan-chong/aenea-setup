@@ -9,7 +9,8 @@ if os.getcwd().endswith('/scripts'):
 files_to_copy = [
     # (source file/directory name, source directory, destination directory)
     ('_charwise_vim.py', './aenea-grammars/_charwise_vim/', './MacroSystem/'),
-    ('aenea/', './aenea/client/', './MacroSystem/')
+    ('aenea/', './aenea/client/', './MacroSystem/'),
+    ('vocabulary_config/', './aenea-grammars/', './MacroSystem/'),
     ]
 
 

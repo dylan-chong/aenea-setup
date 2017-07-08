@@ -5,7 +5,7 @@ MacroSystem/_*vim*.py
 MacroSystem/aenea/
 
 # Aenea State
-MacroSystem/vocabulary_config/enabled.json
+MacroSystem/vocabulary_config/
 
 # IDE
 .idea/
