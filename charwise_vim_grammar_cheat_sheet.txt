@@ -15,7 +15,7 @@
 # letters (prefix with 'big' for uppercase letter)
 'A alpha'   'N november'
 'B bravo'   'O oscar'
-'C charlie' 'P poppa'
+'C charlie' 'P poppy'
 'D delta'   'Q quiche'
 'E echo'    'R romeo'
 'F foxtrot' 'S sierra'

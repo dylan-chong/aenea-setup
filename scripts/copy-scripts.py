@@ -8,9 +8,12 @@ if os.getcwd().endswith('/scripts'):
 # Files and directories to copy into a new place. The destination is deleted
 files_to_copy = [
     # (source file/directory name, source directory, destination directory)
-    ('_charwise_vim.py', './aenea-grammars/_charwise_vim/', './MacroSystem/'),
+    # Aenea files
     ('aenea/', './aenea/client/', './MacroSystem/'),
     ('vocabulary_config/', './aenea-grammars/', './MacroSystem/'),
+    # Grammars
+    ('_charwise_vim.py', './aenea-grammars/_charwise_vim/', './MacroSystem/'),
+    ('_git.py', './aenea-grammars/_git/', './MacroSystem/'),
     ]
 
 
