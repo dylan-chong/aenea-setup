@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import shutil
 import os
 
@@ -14,14 +16,17 @@ files_to_copy = [
     # Grammars
     ('_charwise_vim.py', './aenea-grammars/_charwise_vim/', './MacroSystem/'),
     ('_git.py', './aenea-grammars/_git/', './MacroSystem/'),
-    ]
+]
 
 
 def main():
     copy_files_and_dirs(files_to_copy)
     print 'Done copying files!'
-    print '  If you just changed the grammars'
-    print '    Then just turn the microphone off and on again inside Dragon'
+    print '  If you only changed the grammars'
+    print '    Then, do either:'
+    print '      Say "force NatLink to reload all grammars"'
+    print '    Or:'
+    print '      Turn the microphone off and on again inside Dragon'
     print '    to see the changes you have made'
     print '  Otherwise'
     print '    Restart Dragon to see the changes you have made'
