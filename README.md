@@ -1,5 +1,9 @@
 # Aenea Setup
 
+**NOTE: The submodules here may not reference the latest commits. When
+navigating to the submodules, look at their latest commits on their respective
+master branches.**
+
 My setup for aenea
 
 Follow the `aenea` submodule setup instructions
