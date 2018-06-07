@@ -21,15 +21,8 @@ files_to_copy = [
 
 def main():
     copy_files_and_dirs(files_to_copy)
+    print ''
     print 'Done copying files!'
-    print '  If you only changed the grammars'
-    print '    Then, do either:'
-    print '      Say "force NatLink to reload all grammars"'
-    print '    Or:'
-    print '      Turn the microphone off and on again inside Dragon'
-    print '    to see the changes you have made'
-    print '  Otherwise'
-    print '    Restart Dragon to see the changes you have made'
 
 
 def ensure_ends_with_slash(path_str):
@@ -52,8 +45,9 @@ def ensure_path_doesnt_exist(path):
 def copy_files_and_dirs(file_tuples):
     for (file_or_dir_name, source_dir, destination_dir) in file_tuples:
         source = ensure_ends_with_slash(source_dir) + file_or_dir_name
-        destination = ensure_ends_with_slash(destination_dir) + file_or_dir_name
-
+        destination = (
+            ensure_ends_with_slash(destination_dir) + file_or_dir_name
+        )
         ensure_path_doesnt_exist(destination)
 
         print 'Copying {} to {}'.format(source, destination)
