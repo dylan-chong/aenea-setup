@@ -16,6 +16,8 @@ files_to_copy = [
     # Grammars
     ('_charwise_vim.py', './aenea-grammars/_charwise_vim/', './MacroSystem/'),
     ('_git.py', './aenea-grammars/_git/', './MacroSystem/'),
+    ('git_commands.py', './aenea-grammars/_git/', './MacroSystem/'),
+    # TODO Copy a list of folders instead of copy pastin}
 ]
 
 

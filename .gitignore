@@ -3,6 +3,7 @@
 # Copied scripts
 MacroSystem/_*vim*.py
 MacroSystem/_git.py
+MacroSystem/git_commands.py
 MacroSystem/aenea/
 
 # Aenea State
